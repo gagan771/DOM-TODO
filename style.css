@@ -1,4 +1,59 @@
 html {
   height: 100%;
   width: 100%;
+  background-image: url('https://img.freepik.com/free-photo/tiny-blooming-twig-pink_23-2147699686.jpg?t=st=1720172117~exp=1720175717~hmac=61718ad3dd5bc4fb311362975509b76f5414b9e50bb065c93d4699f447710efd&w=740');
+  background-size: cover;
+  background-repeat: yes;
+  background-position: center;
+  height: 60vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 300px; /* Adjust as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin-bottom: 10px;
+}
+
+input[type="text"]:focus {
+  border-color: #0070f3;
+  box-shadow: 0 0 0 3px rgba(0, 112, 243, 0.1);
+  outline: none;
+}
+
+/* Styles for the button */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0070f3;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+/* Styles for the todos container */
+#todos {
+  margin-top: 20px;
+}
+
+/* Styles for individual todo items */
+.todo-item {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
 }
